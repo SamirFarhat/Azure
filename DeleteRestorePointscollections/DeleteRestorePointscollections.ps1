@@ -24,5 +24,10 @@ workflow Delete-RestorePointsCollections{
     }
     }
     
-    #Run the workflow
-    Delete-RestorePointsCollections -Rgname "Resource group Name"
+#Parameters
+    $SubcriptionName = "Subscription Name"
+    $ResourceGroupname = "Resource group Name"
+ #Run the workflow
+    Login-AzureRmAccount
+    Select-AzureRmSubscription -Subscription $SubcriptionName
+    Delete-RestorePointsCollections -Rgname $ResourceGroupname
