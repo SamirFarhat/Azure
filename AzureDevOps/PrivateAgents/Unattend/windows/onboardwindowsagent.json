@@ -1,0 +1,9 @@
+{
+    "OrganizationUrl":"https://dev.azure.com/xxxxxx",
+    "AuthenticationType":"PAT",
+    "PersonalAccessToken":"",
+    "AgentPool":"Custom Windows 2016",
+    "WorkFolder":"c:\\devopswork",
+    "UserAccount":"NT Authority\\System",
+    "agentdownloadurl":"https://vstsagentpackage.azureedge.net/agent/2.146.0/vsts-agent-win-x64-2.146.0.zip"
+    }
