@@ -9,7 +9,6 @@ These instructions will get you to:
 - Prepare the environment
 - Prerequisites to deploy private agents
 - How to Update the parameter files
-w
  
 ### Prerequisites
 
